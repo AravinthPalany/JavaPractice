@@ -4,6 +4,6 @@ import java.util.Arrays;
 
 public class FirstProgram {
     public static void main(String[] args) {
-        System.out.println("hi");
+        System.out.println("ji is n");
     }
 }
