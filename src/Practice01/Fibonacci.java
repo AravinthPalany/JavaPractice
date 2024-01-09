@@ -7,9 +7,20 @@ public class Fibonacci {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number-");
         int n=sc.nextInt();
-        fibo(n);
+        // fibo(n);
+        int num1=0;
+        int num2=1;
+        int count=0;
+        System.out.println("The fibonacci series is-");
+        while(count<n){
+            System.out.print(num1+" ");
+            int num3=num2+num1;
+            num1=num2;
+            num2=num3;
+            count++;
+        }
     }
-    static void fibo(int num){
+    /*static void fibo(int num){
         int num1=0;
         int num2=1;
         int count=0;
@@ -21,5 +32,5 @@ public class Fibonacci {
             num2=num3;
             count++;
         }
-    }
+    }*/
 }
